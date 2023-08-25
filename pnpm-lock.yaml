@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 patchedDependencies:
   oclif@3.8.1:
     hash: rxmtqiusuyruv7tkwux5gvotbm
@@ -50,7 +46,7 @@ importers:
   examples/arweave-blocks-transactions:
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -66,7 +62,7 @@ importers:
         version: 6.26.0
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -85,7 +81,7 @@ importers:
         version: 6.26.0
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -104,7 +100,7 @@ importers:
         version: 6.26.0
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -123,7 +119,7 @@ importers:
         version: 6.26.0
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -175,7 +171,7 @@ importers:
         version: 5.0.4
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -193,7 +189,7 @@ importers:
   examples/ethereum-gravatar:
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -214,7 +210,7 @@ importers:
   examples/near-blocks:
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -223,7 +219,7 @@ importers:
   examples/near-receipts:
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
       '@graphprotocol/graph-ts':
         specifier: 0.31.0
@@ -232,7 +228,7 @@ importers:
   examples/substreams-powered-subgraph:
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: 0.54.0
+        specifier: 0.55.0
         version: link:../../packages/cli
 
   packages/cli:
@@ -244,8 +240,8 @@ importers:
         specifier: 2.8.6
         version: 2.8.6(@types/node@18.11.9)(typescript@5.0.2)
       '@whatwg-node/fetch':
-        specifier: ^0.8.4
-        version: 0.8.4
+        specifier: ^0.9.0
+        version: 0.9.0
       assemblyscript:
         specifier: 0.19.23
         version: 0.19.23
@@ -3212,32 +3208,6 @@ packages:
       '@octokit/openapi-types': 12.11.0
     dev: true
 
-  /@peculiar/asn1-schema@2.3.6:
-    resolution: {integrity: sha512-izNRxPoaeJeg/AyH8hER6s+H7p4itk+03QCa4sbxI3lNdseQYCuxzgsuNK8bTXChtLTjpJz6NmXKA73qLa3rCA==}
-    dependencies:
-      asn1js: 3.0.5
-      pvtsutils: 1.3.2
-      tslib: 2.5.0
-    dev: false
-
-  /@peculiar/json-schema@1.1.12:
-    resolution: {integrity: sha512-coUfuoMeIB7B8/NMekxaDzLhaYmp0HZNPEjYRm9goRou8UZIC3z21s0sL9AWoCw4EG876QyO3kYrc61WNF9B/w==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      tslib: 2.5.0
-    dev: false
-
-  /@peculiar/webcrypto@1.4.3:
-    resolution: {integrity: sha512-VtaY4spKTdN5LjJ04im/d/joXuvLbQdgy5Z4DXF4MFZhQ+MTrejbNMkfZBp1Bs3O5+bFqnJgyGdPuZQflvIa5A==}
-    engines: {node: '>=10.12.0'}
-    dependencies:
-      '@peculiar/asn1-schema': 2.3.6
-      '@peculiar/json-schema': 1.1.12
-      pvtsutils: 1.3.2
-      tslib: 2.5.0
-      webcrypto-core: 1.7.7
-    dev: false
-
   /@pkgr/utils@2.3.1:
     resolution: {integrity: sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
@@ -3924,24 +3894,24 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@whatwg-node/events@0.0.2:
-    resolution: {integrity: sha512-WKj/lI4QjnLuPrim0cfO7i+HsDSXHxNv1y0CrJhdntuO3hxWZmnXCwNDnwOvry11OjRin6cgWNF+j/9Pn8TN4w==}
+  /@whatwg-node/events@0.1.1:
+    resolution: {integrity: sha512-AyQEn5hIPV7Ze+xFoXVU3QTHXVbWPrzaOkxtENMPMuNL6VVHrp4hHfDt9nrQpjO7BgvuM95dMtkycX5M/DZR3w==}
+    engines: {node: '>=16.0.0'}
     dev: false
 
-  /@whatwg-node/fetch@0.8.4:
-    resolution: {integrity: sha512-xK0NGWt49P+JmsdfN+8zmHzZoscENrV0KL1SyyncvWkc6vbFmSqGSpvItEBuhj1PAfTGFEUpyiRMCsut2hLy/Q==}
+  /@whatwg-node/fetch@0.9.0:
+    resolution: {integrity: sha512-zEyXaoz5w6BpKYKyZLTwBA41fqGuscOvSoPHytADRo1FY/s/fmjwiKq4QGmB88DlNuQ8e57s6AgWqIYyAT0Zmg==}
+    engines: {node: '>=16.0.0'}
     dependencies:
-      '@peculiar/webcrypto': 1.4.3
-      '@whatwg-node/node-fetch': 0.3.4
-      busboy: 1.6.0
-      urlpattern-polyfill: 6.0.2
-      web-streams-polyfill: 3.2.1
+      '@whatwg-node/node-fetch': 0.4.14
+      urlpattern-polyfill: 8.0.2
     dev: false
 
-  /@whatwg-node/node-fetch@0.3.4:
-    resolution: {integrity: sha512-gP1MN6DiHVbhkLWH1eCELhE2ZtLRxb+HRKu4eYze1Tijxz0uT1T2kk3lseZp94txzxCfbxGFU0jsWkxNdH3EXA==}
+  /@whatwg-node/node-fetch@0.4.14:
+    resolution: {integrity: sha512-ii/eZz2PcjLGj9D6WfsmfzlTzZV1Kz6MxYpq2Vc5P21J8vkKfENWC9B2ISsFCKovxElLukIwPg8HTrHFsLNflg==}
+    engines: {node: '>=16.0.0'}
     dependencies:
-      '@whatwg-node/events': 0.0.2
+      '@whatwg-node/events': 0.1.1
       busboy: 1.6.0
       fast-querystring: 1.1.1
       fast-url-parser: 1.1.3
@@ -4315,15 +4285,6 @@ packages:
     resolution: {integrity: sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==}
     dependencies:
       safer-buffer: 2.1.2
-
-  /asn1js@3.0.5:
-    resolution: {integrity: sha512-FVnvrKJwpt9LP2lAMl8qZswRNm3T4q9CON+bxldk2iwk3FFpuwhx2FfinyitizWHsVYyaY+y5JzDR0rCMV5yTQ==}
-    engines: {node: '>=12.0.0'}
-    dependencies:
-      pvtsutils: 1.3.2
-      pvutils: 1.1.3
-      tslib: 2.5.0
-    dev: false
 
   /assemblyscript@0.19.10:
     resolution: {integrity: sha512-HavcUBXB3mBTRGJcpvaQjmnmaqKHBGREjSPNsIvnAk2f9dj78y4BkMaSSdvBQYWcDDzsHQjyUC8stICFkD1Odg==}
@@ -11279,17 +11240,6 @@ packages:
   /pure-rand@6.0.1:
     resolution: {integrity: sha512-t+x1zEHDjBwkDGY5v5ApnZ/utcd4XYDiJsaQQoptTXgUXX95sDg1elCdJghzicm7n2mbCBJ3uYWr6M22SO19rg==}
 
-  /pvtsutils@1.3.2:
-    resolution: {integrity: sha512-+Ipe2iNUyrZz+8K/2IOo+kKikdtfhRKzNpQbruF2URmqPtoqAs8g3xS7TJvFF2GcPXjh7DkqMnpVveRFq4PgEQ==}
-    dependencies:
-      tslib: 2.5.0
-    dev: false
-
-  /pvutils@1.1.3:
-    resolution: {integrity: sha512-pMpnA0qRdFp32b1sJl1wOJNxZLQ2cbQx+k6tjNtZ8CpvVhNqEPRgivZ2WOUev2YMajecdH7ctUPDvEe87nariQ==}
-    engines: {node: '>=6.0.0'}
-    dev: false
-
   /qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
     engines: {node: '>=0.6'}
@@ -13092,10 +13042,8 @@ packages:
       querystring: 0.2.0
     dev: true
 
-  /urlpattern-polyfill@6.0.2:
-    resolution: {integrity: sha512-5vZjFlH9ofROmuWmXM9yj2wljYKgWstGwe8YTyiqM7hVum/g9LyCizPZtb3UqsuppVwety9QJmfc42VggLpTgg==}
-    dependencies:
-      braces: 3.0.2
+  /urlpattern-polyfill@8.0.2:
+    resolution: {integrity: sha512-Qp95D4TPJl1kC9SKigDcqgyM2VDVO4RiJc2d4qe5GrYm+zbIQCWWKAFaJNQ4BhdFeDGwBmAxqJBwWSJDb9T3BQ==}
     dev: false
 
   /utf8@3.0.0:
@@ -13243,11 +13191,6 @@ packages:
     dependencies:
       defaults: 1.0.4
 
-  /web-streams-polyfill@3.2.1:
-    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
-    engines: {node: '>= 8'}
-    dev: false
-
   /web3-eth-abi@1.7.0:
     resolution: {integrity: sha512-heqR0bWxgCJwjWIhq2sGyNj9bwun5+Xox/LdZKe+WMyTSy0cXDXEAgv3XKNkXC4JqdDt/ZlbTEx4TWak4TRMSg==}
     engines: {node: '>=8.0.0'}
@@ -13280,16 +13223,6 @@ packages:
       number-to-bn: 1.7.0
       randombytes: 2.1.0
       utf8: 3.0.0
-
-  /webcrypto-core@1.7.7:
-    resolution: {integrity: sha512-7FjigXNsBfopEj+5DV2nhNpfic2vumtjjgPmeDKk45z+MJwXKKfhPB7118Pfzrmh4jqOMST6Ch37iPAHoImg5g==}
-    dependencies:
-      '@peculiar/asn1-schema': 2.3.6
-      '@peculiar/json-schema': 1.1.12
-      asn1js: 3.0.5
-      pvtsutils: 1.3.2
-      tslib: 2.5.0
-    dev: false
 
   /webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -13716,3 +13649,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
